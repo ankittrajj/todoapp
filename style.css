@@ -67,18 +67,15 @@ h1{
     box-shadow: 2px 2px 1px gray;
 }
 .submit-btn:hover,
-.clear-btn:hover{
+.clear-btn:hover
+{
     background-color:rgba(255, 255, 255, 0.76);
     color: black;
     text-decoration: underline 1px;
 
 }
 .to-do{
-    /* justify-content:left ; */
-    /* padding: 2px 2px; */
     text-align: start;
-    /* margin-right: 1rem; */
-    /* border: 2px red solid; */
 }
 .paragraph{
     margin-right: 10rem;
@@ -86,4 +83,15 @@ h1{
     font-size: 20px;
     font-weight: 300;
     color:black;
+}
+.deletebtn{
+    font-size: 20px;
+    /* display: flex;text-align: center;justify-content:space-evenly; */
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    /* opacity: 0; */
+}
+.deletebtn:hover{
+    color: red;
+    background-color: rgba(12, 10, 10, 0.801);
 }
